@@ -7,7 +7,7 @@
             $("#gifHolder").empty();
             
             var name = $(this).attr('data-name');
-            var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=GL9o5wmiFoFy3G2rvRuOC6I4Ux8rNBCL&q=" + name + "&limit=8";
+            var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=GL9o5wmiFoFy3G2rvRuOC6I4Ux8rNBCL&q=" + name + "&limit=8";
             
             console.log(name);
                         $.ajax({
