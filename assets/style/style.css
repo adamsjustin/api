@@ -1,0 +1,10 @@
+img {
+	width: 100%;
+    height: 80%;
+    border-style: dashed;
+    border-color: lightseagreen;
+    border-width: 5px;
+    display: block;
+    position: relative;
+    margin: auto;
+}
